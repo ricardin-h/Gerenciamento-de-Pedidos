@@ -1,7 +1,7 @@
-package com.Pedidos.Pedidos.Repositories;
+    package com.Pedidos.Pedidos.Repositories;
 
-import com.Pedidos.Pedidos.Entity.Pedido;
-import org.springframework.data.jpa.repository.JpaRepository;
+    import com.Pedidos.Pedidos.Entity.Pedido;
+    import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface Repository extends JpaRepository<Pedido, Long> {
-}
+    public interface Repository extends JpaRepository<Pedido, Long> {
+    }
